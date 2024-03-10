@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attribute Formenctype</title>
+  </head>
+  <body>
+    <form action="/action_page_binary.asp" method="post">
+      <label for="fname">First Name:</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+      <br />
+      <input type="submit" value="Submit" />
+      <!-- Attribute Formenctype menentukan bagaimana data pada form akan dienkripsi
+        ketika dikirimkan (hanya untuk form dengan metode "post"). -->
+      <input
+        type="submit"
+        formenctype="multipart/form-data"
+        value="Submit as Multipart/form-data"
+      />
+    </form>
+  </body>
+</html>
