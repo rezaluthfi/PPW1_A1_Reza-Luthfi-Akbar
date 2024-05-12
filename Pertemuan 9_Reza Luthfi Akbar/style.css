@@ -1,0 +1,68 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif !important;
+  background: url("images/background.jpg");
+  background-size: cover;
+}
+
+.navbar-brand {
+  color: #6f6fc8 !important;
+  font-weight: 600;
+}
+
+.title-header {
+  color: #6f6fc8 !important;
+  font-weight: 600 !important;
+}
+
+.btn-primary {
+  background-color: #6f6fc8 !important;
+}
+
+.feature-icon {
+  border-radius: 8px;
+}
+
+.bg-skills {
+  background-color: #1f2937;
+  padding: 24px;
+  border-radius: 12px;
+  backdrop-filter: blur(30px) !important;
+  border: 0.5px solid #ffffff4d;
+}
+
+.text-primary-custom {
+  color: #6f6fc8 !important;
+}
+
+.text-white-custom {
+  color: #d1d5db !important;
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    background-color: #1f1d2b !important;
+  }
+
+  .img-header {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-primary {
+    width: max-content;
+  }
+}
+
+@media (max-width: 508px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+  }
+}
