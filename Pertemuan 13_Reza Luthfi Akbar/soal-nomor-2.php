@@ -1,4 +1,3 @@
-<!-- array multidimensi dan tampilkan dengan menggunakan sebuah kondisi/percabangan -->
 <?php
 // Membuat array multi dimensi dengan beberapa data
 $data_array = array(
